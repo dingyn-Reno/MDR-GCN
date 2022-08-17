@@ -1,0 +1,52 @@
+# feeder
+work_dir: work_dir/gym/MDR
+#weights: work_dir/gym/ITS8/runs-143-45760.pt
+feeder: feeders.feeder_gym.Feeder
+train_feeder_args:
+  data_path: /share/gym/gym_train.pkl
+  label_path: /share/gym/gym_train.pkl
+  debug: False
+  random_choose: True
+  random_shift: False
+  random_move: False
+  random_rot: True
+  p_interval: [0.5,1]
+  window_size: 64
+  normalization: False
+  vel: False
+  bone: False
+
+test_feeder_args:
+  data_path: /share/gym/gym_val.pkl
+  label_path: /share/gym/gym_val.pkl
+  window_size: 256
+  debug: False
+  p_interval: [0.95]
+
+# model
+model: model.MDRGCN.Model
+model_args:
+  num_class: 99
+  num_point: 17
+  num_person: 1
+  graph: graph.gym.Graph
+  graph_args:
+    labeling_mode: 'spatial'
+
+#optim
+weight_decay: 0.0001
+base_lr: 0.1
+lr_decay_rate: 0.1
+step: [60,120]
+
+
+# training
+device: [0,1]
+batch_size: 64
+test_batch_size: 64
+num_epoch: 180
+nesterov: True
+warm_up_epoch: 5
+classes: 99
+
+
