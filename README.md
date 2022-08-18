@@ -34,7 +34,7 @@ The data processing is borrowed from CTR-GCN: https://github.com/Uason-Chen/CTR-
 
 ### FSD-10
 
-Request dataset: https://github.com/ShenglanLiu/fsd10
+Request dataset: https://shenglanliu.github.io/fsd10/
 
 ## Train
 
