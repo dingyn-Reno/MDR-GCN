@@ -1,4 +1,8 @@
 #!/usr/bin/env python
+'''
+Detailed code instructions are on the github page: https://github.com/dingyn-Reno/MDR-GCN.
+'''
+
 from __future__ import print_function
 
 import argparse
@@ -30,7 +34,7 @@ from torchlight import DictAction
 import resource
 rlimit = resource.getrlimit(resource.RLIMIT_NOFILE)
 resource.setrlimit(resource.RLIMIT_NOFILE, (2048, rlimit[1]))
-from send_mail import send
+# from send_mail import send
 from RobustDecoupleLoss import RDL
 
 def init_seed(seed):
@@ -563,7 +567,7 @@ class Processor():
             self.print_log(f'Test Batch Size: {self.arg.test_batch_size}')
             self.print_log(f'seed: {self.arg.seed}')
             body = "你的模型已经跑完，精度为{}".format(self.best_acc)
-            send(body)
+
         elif self.arg.phase == 'test':
             wf = self.arg.weights.replace('.pt', '_wrong.txt')
             rf = self.arg.weights.replace('.pt', '_right.txt')
