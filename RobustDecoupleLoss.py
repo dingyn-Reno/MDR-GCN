@@ -9,7 +9,7 @@ class RDL(nn.Module):
         feat_dim (int): feature dimension.
     """
     def __init__(self, num_classes=10, feat_dim=3, knearest=4, use_gpu=True,output_device = 0,learnable=True):
-        super(CenterLoss, self).__init__()
+        super(RDL, self).__init__()
         self.num_classes = num_classes
         self.feat_dim = feat_dim
         self.use_gpu = use_gpu
