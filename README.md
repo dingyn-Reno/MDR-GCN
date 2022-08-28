@@ -10,7 +10,7 @@ By updating parameters and using new devices, our model achieved better peforman
 | FineGym99        | 92.81 |
 | FSD-10           | 93.88 |
 | NTU RGB+D (XSub) | 92.59 |
-| NTU RGB+D (XView) | 96.9 |
+| NTU RGB+D (XView) | 96.87 |
 
 The accuracies of four modalities on NTU RGB+D (Xsub):
 
@@ -20,6 +20,15 @@ The accuracies of four modalities on NTU RGB+D (Xsub):
 | bone         | 90.31 |
 | joint motion | 88.12 |
 | bone motion  | 87.68 |
+
+The accuracies of four modalities on NTU RGB+D (Xview):
+
+| Modalities   | Top-1 |
+|--------------|-------|
+| joint        | 95.21 |
+| bone         | 95.31 |
+| joint motion | 93.94 |
+| bone motion  | 92.53 |
 
 ## Datasets
 
