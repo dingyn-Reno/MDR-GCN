@@ -3,7 +3,7 @@ Multi-Dimensional Refinement Graph Convolutional Network with Robust Decouple Lo
 
 ## Results
 
-By updating parameters and using new devices, our model achieved better peformance on NTU RGB+D than we noted before (92.4 in our paper)
+By updating parameters and using new devices, our model achieved better peformance on NTU RGB+D than we noted before (92.4 on Xsub in our paper)
 
 | Datasets         | Top-1 |
 |------------------|-------|
