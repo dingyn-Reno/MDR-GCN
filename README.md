@@ -10,6 +10,7 @@ By updating parameters and using new devices, our model achieved better peforman
 | FineGym99        | 92.81 |
 | FSD-10           | 93.88 |
 | NTU RGB+D (XSub) | 92.59 |
+| NTU RGB+D (XView) | 96.9 |
 
 The accuracies of four modalities on NTU RGB+D (Xsub):
 
