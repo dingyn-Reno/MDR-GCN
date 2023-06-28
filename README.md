@@ -1,35 +1,6 @@
 # MDR-GCN
 Multi-Dimensional Refinement Graph Convolutional Network with Robust Decouple Loss for Fine-Grained Skeleton-Based Action Recognition
 
-## Results
-
-By updating parameters and using new devices, our model achieved better peformance on NTU RGB+D than we noted before (92.4 on Xsub in our paper)
-
-| Datasets         | Top-1 |
-|------------------|-------|
-| FineGym99        | 92.81 |
-| FSD-10           | 93.88 |
-| NTU RGB+D (XSub) | 92.59 |
-| NTU RGB+D (XView) | 96.87 |
-
-The accuracies of four modalities on NTU RGB+D (Xsub):
-
-| Modalities   | Top-1 |
-|--------------|-------|
-| joint        | 89.66 |
-| bone         | 90.31 |
-| joint motion | 88.12 |
-| bone motion  | 87.68 |
-
-The accuracies of four modalities on NTU RGB+D (Xview):
-
-| Modalities   | Top-1 |
-|--------------|-------|
-| joint        | 95.21 |
-| bone         | 95.31 |
-| joint motion | 93.94 |
-| bone motion  | 92.53 |
-
 ## Datasets
 
 ### FineGym99
