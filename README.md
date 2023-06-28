@@ -7,13 +7,13 @@ pdf：https://arxiv.org/abs/2306.15321
 
 ### FineGym99
 
-The data processing is borrowed from https://github.com/kennymckormick/pyskl
+The data processing is motivated by https://github.com/kennymckormick/pyskl
 
 ### NTU RGB+D
 
 Request dataset: https://rose1.ntu.edu.sg/dataset/actionRecognition
 
-The data processing is borrowed from CTR-GCN: https://github.com/Uason-Chen/CTR-GCN
+The data processing is motivated by CTR-GCN: https://github.com/Uason-Chen/CTR-GCN
 
 ### FSD-10
 
