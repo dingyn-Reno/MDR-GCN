@@ -39,4 +39,8 @@ For FSD-10,
 python main_cl_new.py --config config/skat/train_25.yaml --device 0
 ```
 
+## Citation
+
+
+
 
