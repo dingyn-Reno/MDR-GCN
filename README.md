@@ -1,6 +1,8 @@
 # MDR-GCN
 Multi-Dimensional Refinement Graph Convolutional Network with Robust Decouple Loss for Fine-Grained Skeleton-Based Action Recognition
 
+pdf：https://arxiv.org/abs/2306.15321
+
 ## Datasets
 
 ### FineGym99
