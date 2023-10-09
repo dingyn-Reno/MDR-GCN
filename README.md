@@ -3,6 +3,8 @@ Multi-Dimensional Refinement Graph Convolutional Network with Robust Decouple Lo
 
 pdf：https://arxiv.org/abs/2306.15321
 
+![image text](https://github.com/dingyn-Reno/MMFS/blob/main/MDRGCN.png)
+
 ## Datasets
 
 ### FineGym99
