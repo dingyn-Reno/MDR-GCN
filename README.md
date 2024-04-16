@@ -50,14 +50,16 @@ python main_cl_new.py --config config/skat/train_25.yaml --device 0
 If you find our work useful in your research, please consider citing:
 
 ```
-@misc{liu2023multidimensional,
-      title={Multi-Dimensional Refinement Graph Convolutional Network with Robust Decouple Loss for Fine-Grained Skeleton-Based Action Recognition}, 
-      author={Sheng-Lan Liu and Yu-Ning Ding and Jin-Rong Zhang and Kai-Yuan Liu and Si-Fan Zhang and Fei-Long Wang and Gao Huang},
-      year={2023},
-      eprint={2306.15321},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
+@ARTICLE{10499829,
+  author={Liu, Sheng-Lan and Ding, Yu-Ning and Zhang, Jin-Rong and Liu, Kai-Yuan and Zhang, Si-Fan and Wang, Fei-Long and Huang, Gao},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={Multidimensional Refinement Graph Convolutional Network With Robust Decouple Loss for Fine-Grained Skeleton-Based Action Recognition}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-12},
+  keywords={Task analysis;Convolution;Skeleton;Robustness;Feature extraction;Topology;Convolutional neural networks;Fine-grained action;graph convolutional network (GCN);robust decouple loss (RDL);spatial–temporal attention},
+  doi={10.1109/TNNLS.2024.3384770}}
 ```
 
 
