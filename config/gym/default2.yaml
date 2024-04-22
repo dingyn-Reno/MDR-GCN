@@ -19,7 +19,7 @@ train_feeder_args:
 test_feeder_args:
   data_path: /share/gym/gym_val.pkl
   label_path: /share/gym/gym_val.pkl
-  window_size: 256
+  window_size: 64
   debug: False
   p_interval: [0.95]
 
